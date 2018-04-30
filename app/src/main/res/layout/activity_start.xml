@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Start">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="368dp"
+        android:layout_height="400dp"
+        android:layout_marginBottom="41dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="41dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Delivery Hub"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/colorPrimary"
+            android:textColorHighlight="?android:attr/colorFocusedHighlight"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/Go_to_Map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Get Started"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/colorPrimaryDark"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="213dp"
+            tools:textColor="@color/common_google_signin_btn_text_dark_focused" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
